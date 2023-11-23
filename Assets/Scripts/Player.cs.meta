@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 38e1ca19f6d1e79479d03fadede276e2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rb: {instanceID: 0}
+  - pfParafuso: {fileID: 2530751598968460341, guid: 93573011035e01744b813d90d41f9dae, type: 3}
+  - disparoTriploPrefab: {fileID: 9008693739839219689, guid: 8e85964256188564483b433d2ee64580, type: 3}
+  - _explosaoPlayerPrefab: {fileID: 4752170137319071889, guid: 482f04afe6538f543a5b87037ed6ea14, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

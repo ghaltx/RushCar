@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovimentoFumaca : MonoBehaviour
+public class MovimentoProjetil : MonoBehaviour
 
 {
-    public float velocFumaca = 12.0f;
+    public float velocProjetil = 12.0f;
 
     // Start is called before the first frame update
 
@@ -17,10 +17,9 @@ public class MovimentoFumaca : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.down * velocFumaca * Time.deltaTime);
+        transform.Translate(Vector3.up * velocProjetil * Time.deltaTime);
 
-        if ( transform.position.y < -6.0f ){
-            Debug.Log("Objeto destruído!");
+        if ( transform.position.y > 6.0f){
             Destroy(this.gameObject); 
         }
     }
